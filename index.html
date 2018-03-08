@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="header">
+        <h1>
+          Build A Simon Game
+        </h1>
+      </div>
+      <div class="display_main">
+      <div class="display" data-round="- -">
+        01
+      </div>
+      </div>
+      <div class="simon">
+        <div data-color="r"></div>
+        <div data-color="b"> </div>
+        <div data-color="g"></div>
+        <div data-color="y"></div>
+      </div>
+      <div class="controls">
+        <button class="_start" disabled>Start</button>
+        <button class="_on_off" data-button="0">OFF</button>
+        <button class="_strict" data-button="0" disabled>Easy</button>
+      </div>
+      <div class="footer">
+        Made with &#10084; by &nbsp;<a href="https://www.github.com/sprinting">Sprinting</a>
+      </div>
+    </div>
+    <audio id="r" src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" ></audio>
+    <audio id="b" src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" ></audio>
+    <audio id="g" src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" ></audio>
+    <audio id="y" src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" ></audio>
+  </body>
+</html>
